@@ -50,6 +50,9 @@ begin
 	       --assert (w_sum = "00000001" and w_Cout = '0') report "bad with first" severity failure;
        -- Test all ones input
        w_addends <= "00000001"; w_Cin <= '1'; wait for 10 ns;
+        w_addends <= "00010010"; w_Cin <= '1'; wait for 10 ns;
+         w_addends <= "10010010"; w_Cin <= '1'; wait for 10 ns;
+          w_addends <= "00010000"; w_Cin <= '1'; wait for 10 ns;
        w_addends <= "00000010"; w_Cin <= '1'; wait for 10 ns;
        w_addends <= x"FF"; w_Cin <= '1'; wait for 10 ns;
 	       assert (w_sum = x"F" and w_Cout = '1') report "bad with ones" severity failure;

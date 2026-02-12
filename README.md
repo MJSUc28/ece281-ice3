@@ -9,6 +9,12 @@ Targeted toward Digilent Basys3. Make sure to install the [board files](https://
 Tested on Vivado 2024.2
 
 ---
+## Documentation
+
+I used only the instructor provided resources for this assignment. I did not recieve any other help.
+
+![Testbench Waveform Ripple Adder](Waveform.png)
+![Sketch of entity architecture](Sketch.jpg)
 
 ## GitHub Actions Testbench
 
